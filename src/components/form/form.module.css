@@ -1,0 +1,36 @@
+.form,
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form input[type="text"],
+.form select {
+  padding: 1rem;
+  background-color: transparent;
+  border: 0.3rem solid var(--white);
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-radius: 1rem;
+}
+.field  ::placeholder {
+    color: var(--white);
+}
+
+.submit {
+  background-color: var(--primary);
+  border: none;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-transform: uppercase;   
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #d97706; /* Ajusta este color a tu gusto */
+}
