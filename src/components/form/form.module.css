@@ -8,12 +8,13 @@
 .form input[type="text"],
 .form select {
   padding: 1rem;
-  background-color: transparent;
+  background-color:transparent;
   border: 0.3rem solid var(--white);
   color: black;
   font-size: 1.8rem;
   font-weight: 400;
   border-radius: 1rem;
+  
 }
 .field  ::placeholder {
     color: var(--white);
