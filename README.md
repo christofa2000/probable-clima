@@ -19,5 +19,8 @@ Este proyecto consume una API para obtener datos meteorológicos y los muestra d
 npm install
 npm run dev
 
+##git add README.md
+git commit -m "Agrega README con formato Markdown y descripción del proyecto"
+git push origin main
 
 "Mi nombre es Máximo Décimo Meridio, comandante de los ejércitos del Norte, general de las legiones Fénix, leal servidor del verdadero emperador Marco Aurelio, padre de un hijo asesinado, esposo de una esposa asesinada, y juro que me vengaré, en esta vida o en la otra."
